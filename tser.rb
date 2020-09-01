@@ -3,9 +3,9 @@
 class Tser < Formula
   desc "A TypeScript virtual machine."
   homepage "https://github.com/tser-project/tser"
-  version "0.0.1"
+  version "0.0.2"
   url "https://github.com/tser-project/tser/releases/download/v#{version}/mac64_#{version}.tar.xz"
-  sha256 "16983bef60d2df99ab3b6109d01a45f5f096e366bbb09c0defd9b05a63d9b5bc"
+  sha256 "b0e85fafeb5466d54229e672c9a516c456cdcdf0e2f4fc9c4da7bcd400908f48"
 
   def install
     bin.install "bin/tser"
